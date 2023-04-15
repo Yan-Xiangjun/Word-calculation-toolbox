@@ -98,6 +98,15 @@
         Me.Button9 = Me.Factory.CreateRibbonButton
         Me.Group7 = Me.Factory.CreateRibbonGroup
         Me.Chk4 = Me.Factory.CreateRibbonCheckBox
+        Me.Button1 = Me.Factory.CreateRibbonButton
+        Me.Button2 = Me.Factory.CreateRibbonButton
+        Me.Button3 = Me.Factory.CreateRibbonButton
+        Me.Button4 = Me.Factory.CreateRibbonButton
+        Me.Button5 = Me.Factory.CreateRibbonButton
+        Me.Button6 = Me.Factory.CreateRibbonButton
+        Me.Button7 = Me.Factory.CreateRibbonButton
+        Me.Button8 = Me.Factory.CreateRibbonButton
+        Me.Button9 = Me.Factory.CreateRibbonButton
         Me.Button10 = Me.Factory.CreateRibbonButton
         Me.Button11 = Me.Factory.CreateRibbonButton
         Me.Tab1.SuspendLayout()
@@ -330,6 +339,85 @@
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Text = Nothing
         '
+        'Group5
+        '
+        Me.Group5.Items.Add(Me.Button8)
+        Me.Group5.Label = "表格排版"
+        Me.Group5.Name = "Group5"
+        '
+        'Group6
+        '
+        Me.Group6.Items.Add(Me.Button9)
+        Me.Group6.Label = "图片编辑"
+        Me.Group6.Name = "Group6"
+        '
+        'Group7
+        '
+        Me.Group7.Items.Add(Me.Chk4)
+        Me.Group7.Items.Add(Me.Button10)
+        Me.Group7.Items.Add(Me.Button11)
+        Me.Group7.Label = "其他"
+        Me.Group7.Name = "Group7"
+        '
+        'Chk4
+        '
+        Me.Chk4.Label = "弹出的窗口保持浮动"
+        Me.Chk4.Name = "Chk4"
+        '
+        'Button1
+        '
+        Me.Button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
+        Me.Button1.Image = Global.计算书工具V22._10.My.Resources.Resources.铅笔_pencil
+        Me.Button1.Label = "将数字代入公式"
+        Me.Button1.Name = "Button1"
+        Me.Button1.ShowImage = True
+        Me.Button1.SuperTip = "将数字代入公式"
+        '
+        'Button2
+        '
+        Me.Button2.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
+        Me.Button2.Image = Global.计算书工具V22._10.My.Resources.Resources.计算器_calculator_one__1_
+        Me.Button2.Label = "计算"
+        Me.Button2.Name = "Button2"
+        Me.Button2.ShowImage = True
+        Me.Button2.SuperTip = "数值计算"
+        '
+        'Button3
+        '
+        Me.Button3.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
+        Me.Button3.Image = Global.计算书工具V22._10.My.Resources.Resources.校验_check_one
+        Me.Button3.Label = "校核"
+        Me.Button3.Name = "Button3"
+        Me.Button3.ShowImage = True
+        Me.Button3.SuperTip = "数值计算（手动选择）"
+        '
+        'Button4
+        '
+        Me.Button4.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
+        Me.Button4.Image = Global.计算书工具V22._10.My.Resources.Resources.刷新_refresh_one
+        Me.Button4.Label = "转换为专业型公式"
+        Me.Button4.Name = "Button4"
+        Me.Button4.ShowImage = True
+        Me.Button4.SuperTip = "转换为专业型公式"
+        '
+        'Button5
+        '
+        Me.Button5.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
+        Me.Button5.Image = Global.计算书工具V22._10.My.Resources.Resources.自动列宽_auto_line_width
+        Me.Button5.Label = "单位推断"
+        Me.Button5.Name = "Button5"
+        Me.Button5.ShowImage = True
+        Me.Button5.SuperTip = "常用单位"
+        '
+        'Button6
+        '
+        Me.Button6.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
+        Me.Button6.Image = Global.计算书工具V22._10.My.Resources.Resources.报纸折叠_newspaper_folding
+        Me.Button6.Label = "常用替换"
+        Me.Button6.Name = "Button6"
+        Me.Button6.ShowImage = True
+        Me.Button6.SuperTip = "常用替换"
+        '
         'Button7
         '
         Me.Button7.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
@@ -451,7 +539,7 @@ End Class
 
 Partial Class ThisRibbonCollection
 
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Friend ReadOnly Property Ribbon1() As Ribbon1
         Get
             Return Me.GetRibbon(Of Ribbon1)()

@@ -327,16 +327,17 @@
     <None Include="Resources\刷新_refresh-one.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\计算器_calculator-one.png" />
     <None Include="Resources\自动列宽_auto-line-width.png" />
     <None Include="Resources\报纸折叠_newspaper-folding.png" />
     <None Include="Resources\字母段落_paragraph-alphabet.png" />
     <None Include="Resources\16宫格_grid-sixteen.png" />
     <None Include="Resources\立体透视_stereo-perspective.png" />
     <None Include="Resources\数据库网络节点_database-network-point.png" />
+    <None Include="Resources\计算器_calculator-one %281%29.bmp" />
     <None Include="Resources\信息_info.png" />
     <None Include="Resources\帮助_help.png" />
     <None Include="Resources\校验_check-one.png" />
+    <Content Include="Resources\计算器_calculator-one %281%29.png" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
