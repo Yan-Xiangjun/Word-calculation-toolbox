@@ -39,7 +39,7 @@ Public Class Ribbon1
     Private Sub Button4_Click(sender As Object, e As RibbonControlEventArgs) Handles Button4.Click
         Call 转换为专业型公式()
     End Sub
-
+    '单位推断
     Private Sub Button5_Click(sender As Object, e As RibbonControlEventArgs) Handles Button5.Click
         Dim st = doc.Selection.Paragraphs(1).Range.Start
         Dim check_text = doc.ActiveDocument.Range(st, doc.Selection.Range.Start).Text
@@ -65,13 +65,14 @@ Public Class Ribbon1
         End If
 
     End Sub
-
+    '常用替换
     Private Sub Button6_Click(sender As Object, e As RibbonControlEventArgs) Handles Button6.Click
         Dim f1 As New normal_replacement
         f1.Show()
         f1.TopMost = True
 
     End Sub
+    '段落排版
     Sub set_ph_type(cb As Object)
 
         If dic_title.ContainsKey(cb.Text) Then
@@ -91,31 +92,48 @@ Public Class Ribbon1
         Call 开始段落排版()
 
     End Sub
-
+    '表格排版
     Private Sub Button8_Click(sender As Object, e As RibbonControlEventArgs) Handles Button8.Click
         Dim f1 As New tbl_edit
         f1.Show()
         f1.TopMost = True
 
     End Sub
-
+    '图片编辑
     Private Sub Button9_Click(sender As Object, e As RibbonControlEventArgs) Handles Button9.Click
         Dim f1 As New pic_edit
         f1.Show()
         f1.TopMost = True
 
     End Sub
-
+    '弹出的窗口保持浮动
     Private Sub Ch4_Click(sender As Object, e As RibbonControlEventArgs) Handles Chk4.Click
         If Chk4.Checked = True Then hold_or_close = "hold"
         If Chk4.Checked = False Then hold_or_close = "close"
     End Sub
-
+    '打开建标库
     Private Sub Button10_Click(sender As Object, e As RibbonControlEventArgs) Handles Button10.Click
         Shell("explorer.exe http://www.jianbiaoku.com/", vbNormalFocus)
     End Sub
-
+    '打开项目地址
     Private Sub Button11_Click(sender As Object, e As RibbonControlEventArgs) Handles Button11.Click
         Shell("explorer.exe https://gitee.com/yan-xiangjun/word-calculation-toolbox", vbNormalFocus)
     End Sub
+    '公式内上标
+    Private Sub Button12_Click(sender As Object, e As RibbonControlEventArgs) Handles Button12.Click
+        Dim ed = doc.Selection.Range.End
+        doc.Selection.Collapse(wdCollapseStart)
+        doc.Selection.TypeText("^")
+        doc.ActiveDocument.Range(ed + 1, ed + 1).Select() '因为多了一个^，所以+1
+        Windows.Forms.SendKeys.Send(" ") '模拟按键
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As RibbonControlEventArgs) Handles Button13.Click
+        Dim ed = doc.Selection.Range.End
+        doc.Selection.Collapse(wdCollapseStart)
+        doc.Selection.TypeText("_")
+        doc.ActiveDocument.Range(ed + 1, ed + 1).Select() '因为多了一个_，所以+1
+        Windows.Forms.SendKeys.Send(" ") '模拟按键
+    End Sub
+
 End Class

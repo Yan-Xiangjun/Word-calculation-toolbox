@@ -338,6 +338,15 @@
     <None Include="Resources\帮助_help.png" />
     <None Include="Resources\校验_check-one.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\右上-小_right-small-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\右下-小_right-small-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\文字两边对齐_align-text-both.png" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -81,6 +81,8 @@
         Me.Button2 = Me.Factory.CreateRibbonButton
         Me.Button3 = Me.Factory.CreateRibbonButton
         Me.Button4 = Me.Factory.CreateRibbonButton
+        Me.Button12 = Me.Factory.CreateRibbonButton
+        Me.Button13 = Me.Factory.CreateRibbonButton
         Me.Group2 = Me.Factory.CreateRibbonGroup
         Me.Button5 = Me.Factory.CreateRibbonButton
         Me.Group3 = Me.Factory.CreateRibbonGroup
@@ -129,6 +131,8 @@
         Me.Group1.Items.Add(Me.Button2)
         Me.Group1.Items.Add(Me.Button3)
         Me.Group1.Items.Add(Me.Button4)
+        Me.Group1.Items.Add(Me.Button12)
+        Me.Group1.Items.Add(Me.Button13)
         Me.Group1.Label = "公式及计算"
         Me.Group1.Name = "Group1"
         '
@@ -183,6 +187,20 @@
         Me.Button4.Name = "Button4"
         Me.Button4.ShowImage = True
         Me.Button4.SuperTip = "转换为专业型公式"
+        '
+        'Button12
+        '
+        Me.Button12.Image = Global.计算书工具V22._10.My.Resources.Resources.右上_小_right_small_up
+        Me.Button12.Label = "公式内上标"
+        Me.Button12.Name = "Button12"
+        Me.Button12.ShowImage = True
+        '
+        'Button13
+        '
+        Me.Button13.Image = Global.计算书工具V22._10.My.Resources.Resources.右下_小_right_small_down
+        Me.Button13.Label = "公式内下标"
+        Me.Button13.Name = "Button13"
+        Me.Button13.ShowImage = True
         '
         'Group2
         '
@@ -447,6 +465,8 @@
     Friend WithEvents Chk4 As Microsoft.Office.Tools.Ribbon.RibbonCheckBox
     Friend WithEvents Button10 As Microsoft.Office.Tools.Ribbon.RibbonButton
     Friend WithEvents Button11 As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents Button12 As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents Button13 As Microsoft.Office.Tools.Ribbon.RibbonButton
 End Class
 
 Partial Class ThisRibbonCollection

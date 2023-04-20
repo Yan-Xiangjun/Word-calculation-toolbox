@@ -93,6 +93,26 @@ Namespace My.Resources
         '''<summary>
         '''  查找 System.Drawing.Bitmap 类型的本地化资源。
         '''</summary>
+        Friend ReadOnly Property 右上_小_right_small_up() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("右上-小_right-small-up", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
+        '''</summary>
+        Friend ReadOnly Property 右下_小_right_small_down() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("右下-小_right-small-down", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
+        '''</summary>
         Friend ReadOnly Property 字母段落_paragraph_alphabet() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("字母段落_paragraph-alphabet", resourceCulture)
@@ -126,6 +146,16 @@ Namespace My.Resources
         Friend ReadOnly Property 数据库网络节点_database_network_point() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("数据库网络节点_database-network-point", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
+        '''</summary>
+        Friend ReadOnly Property 文字两边对齐_align_text_both() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("文字两边对齐_align-text-both", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
