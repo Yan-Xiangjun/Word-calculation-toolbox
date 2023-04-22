@@ -1,0 +1,154 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Word计算书工具箱2.0
+</name>
+</assembly>
+<members>
+<member name="T:计算书工具V22._10.My.Resources.Resources">
+<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.ResourceManager">
+<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.Culture">
+<summary>
+  重写当前线程的 CurrentUICulture 属性，对
+  使用此强类型资源类的所有资源查找执行重写。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources._16宫格_grid_sixteen">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.信息_info">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.刷新_refresh_one">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.字母段落_paragraph_alphabet">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.帮助_help">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.报纸折叠_newspaper_folding">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.数据库网络节点_database_network_point">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.校验_check_one">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.立体透视_stereo_perspective">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.自动列宽_auto_line_width">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.计算器_calculator_one__1_">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.铅笔_pencil">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:计算书工具V22._10.My.Resources.Resources.鼠标_mouse_one">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="T:计算书工具V22._10.ThisRibbonCollection">
+
+</member>
+<member name="M:计算书工具V22._10.ThisRibbonCollection.#ctor(Microsoft.Office.Tools.Ribbon.RibbonFactory)">
+
+</member>
+<member name="T:计算书工具V22._10.ThisAddIn">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.#ctor(Microsoft.Office.Tools.Word.ApplicationFactory,System.IServiceProvider)">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.Initialize">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.FinishInitialization">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.InitializeDataBindings">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.InitializeCachedData">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.InitializeData">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.BindToData">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.StartCaching(System.String)">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.StopCaching(System.String)">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.IsCached(System.String)">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.BeginInitialization">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.EndInitialization">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.InitializeControls">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.InitializeComponents">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.NeedsFill(System.String)">
+
+</member>
+<member name="M:计算书工具V22._10.ThisAddIn.OnShutdown">
+
+</member>
+<member name="T:计算书工具V22._10.Globals">
+
+</member>
+<member name="M:计算书工具V22._10.Globals.#ctor">
+
+</member>
+</members>
+</doc>
