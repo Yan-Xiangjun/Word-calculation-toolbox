@@ -147,6 +147,7 @@ Err:    MsgBox("选区存在问题，程序终止！", vbExclamation)
         doc.Selection.Find.Replacement.ClearFormatting()
         Dim MyData As New DataObject
 
+        doc.Selection.Range.Find.Execute(FindText:="*", ReplaceWith:="×", Replace:=wdReplaceAll, MatchWildcards:=False)
         MyData.SetText("^")   '符号^不能直接输入到替换框里,会被识别为当成通配符
         MyData.PutInClipboard() '将^号放进剪贴板里
         For i = 5 To 1 Step -1
